@@ -7,9 +7,10 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/593ea6dc88.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -39,48 +40,81 @@
   </header>
 
   <main>
-    <iframe width="560" height="315"
+
+    <section id="main-left"> 
+      <iframe 
      src="https://www.youtube.com/embed/V74l_zS1x8E" 
      title="YouTube video player" frameborder="0" 
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen>
     </iframe>
 
-    <h1>
-      Content
-    </h1>
+    <h3>
+      Contributing to Open Source Part I: The Easy Way
+    </h3>
 
     <div id="video-options">
-      <p id="views"> 66,446 views &#8226; Feb 28, 2014</p>
-      <div id="likes">
-      
+      <div id="views-div">
+        <p id="views"> 66,446 </p>
+      </div>
+      <button id="likes">
+        <i class="fa-solid fa-thumbs-up"></i>
         <p>482</p>
-      </div>
-      <div id="dislikes">
-        
+      </button>
+      <button id="dislikes">
+        <i class="fa-solid fa-thumbs-down"></i>
         <p>DISLIKE</p>
-      </div>
-      <div id="share">
-        
+      </button>
+      <button id="share">
+        <i class="fa-solid fa-share"></i>
         <p>SHARE</p>
-      </div>
-      <div id="download">
-       
+      </button>
+      <button id="download">
+        <i class="fa-solid fa-arrow-down"></i>
         <p>DOWNLOAD</p>
-      </div>
-      <div id="clip">
-       
+      </button>
+      <button id="clip">
+        <i class="fa-solid fa-scissors"></i>
         <p>CLIP</p>
-      </div>
-      <div id="save">
-       
+      </button>
+      <button id="save">
+        <i class="fa-solid fa-box-archive"></i>
         <p>SAVE</p>
+      </button>
+      <button id="other-video-options">
+        <i class="fa-solid fa-ellipsis"></i>
+      </button>
+    </div>
+
+    <div id="video-info">
+      <div id="uploader-img">
+        <img src="images/uploader-img.jpg" alt="">
       </div>
-      <div id="other-video-options">
-       
+
+      <div id="video-info-right">
+        <div id="video-info-right-top">
+          <div id="channel-info">
+            <p id="channel-name">The Odin Project</p>
+            <p id="subscribers-number">1.09k subscribers</p>
+          </div>
+          <button id="subscribe-button">SUBSCRIBE</button>
+        </div>
+
+        <div id="video-info-right-bottom">
+          <p id="video-description">How do you contribute to open source?
+            In this video, I'll describe the easiest way to make a
+            simple contribution to an open source project 
+            -- without using the command line, a text editor,
+            "forking a repo", or even touching Git outside of Github.
+            I'll also describe what kinds of contributions open
+          </p>
+          <button id="show-more-button">SHOW MORE</button>
+        </div>
       </div>
     </div>
  
+    </section>
+    
   </main>
  
 
