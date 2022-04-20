@@ -41,82 +41,179 @@
 
   <main>
 
-    <section id="main-left"> 
+  <section id="main-left">
+    <section id="video-section">
       <iframe 
-     src="https://www.youtube.com/embed/V74l_zS1x8E" 
-     title="YouTube video player" frameborder="0" 
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-     allowfullscreen>
-    </iframe>
-
-    <h3>
-      Contributing to Open Source Part I: The Easy Way
-    </h3>
-
-    <div id="video-options">
-      <div id="views-div">
-        <p id="views"> 66,446 </p>
-      </div>
-      <button id="likes">
-        <i class="fa-solid fa-thumbs-up"></i>
-        <p>482</p>
-      </button>
-      <button id="dislikes">
-        <i class="fa-solid fa-thumbs-down"></i>
-        <p>DISLIKE</p>
-      </button>
-      <button id="share">
-        <i class="fa-solid fa-share"></i>
-        <p>SHARE</p>
-      </button>
-      <button id="download">
-        <i class="fa-solid fa-arrow-down"></i>
-        <p>DOWNLOAD</p>
-      </button>
-      <button id="clip">
-        <i class="fa-solid fa-scissors"></i>
-        <p>CLIP</p>
-      </button>
-      <button id="save">
-        <i class="fa-solid fa-box-archive"></i>
-        <p>SAVE</p>
-      </button>
-      <button id="other-video-options">
-        <i class="fa-solid fa-ellipsis"></i>
-      </button>
-    </div>
-
-    <div id="video-info">
-      <div id="uploader-img">
-        <img src="images/uploader-img.jpg" alt="">
-      </div>
-
-      <div id="video-info-right">
-        <div id="video-info-right-top">
-          <div id="channel-info">
-            <p id="channel-name">The Odin Project</p>
-            <p id="subscribers-number">1.09k subscribers</p>
-          </div>
-          <button id="subscribe-button">SUBSCRIBE</button>
-        </div>
-
-        <div id="video-info-right-bottom">
-          <p id="video-description">How do you contribute to open source?
-            In this video, I'll describe the easiest way to make a
-            simple contribution to an open source project 
-            -- without using the command line, a text editor,
-            "forking a repo", or even touching Git outside of Github.
-            I'll also describe what kinds of contributions open
-          </p>
-          <button id="show-more-button">SHOW MORE</button>
-        </div>
-      </div>
-    </div>
+      src="https://www.youtube.com/embed/V74l_zS1x8E" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+     </iframe>
  
+     <h3>
+       Contributing to Open Source Part I: The Easy Way
+     </h3>
+ 
+     <div id="video-options">
+       <div id="views-div">
+         <p id="views">66,446 views &#8226; Feb 28, 2014</p>
+       </div>
+       <button id="likes">
+         <i class="fa-solid fa-thumbs-up"></i>
+         <p>482</p>
+       </button>
+       <button id="dislikes">
+         <i class="fa-solid fa-thumbs-down"></i>
+         <p>DISLIKE</p>
+       </button>
+       <button id="share">
+         <i class="fa-solid fa-share"></i>
+         <p>SHARE</p>
+       </button>
+       <button id="download">
+         <i class="fa-solid fa-arrow-down"></i>
+         <p>DOWNLOAD</p>
+       </button>
+       <button id="clip">
+         <i class="fa-solid fa-scissors"></i>
+         <p>CLIP</p>
+       </button>
+       <button id="save">
+         <i class="fa-solid fa-box-archive"></i>
+         <p>SAVE</p>
+       </button>
+       <button id="other-video-options">
+         <i class="fa-solid fa-ellipsis"></i>
+       </button>
+     </div>
+ 
+     <div id="video-info">
+       <div id="channel-img-div">
+         <img id="channel-img2" src="images/uploader-img.jpg" alt="">
+       </div>
+ 
+       <div id="video-info-right">
+         <div id="video-info-right-top">
+           <div id="channel-info">
+             <p id="channel-name">The Odin Project</p>
+             <p id="subscribers-number">1.09k subscribers</p>
+           </div>
+           <button id="subscribe-button">SUBSCRIBE</button>
+         </div>
+ 
+         <div id="video-info-right-bottom">
+           <p id="video-description">How do you contribute to open source?
+             In this video, I'll describe the easiest way to make a
+             simple contribution to an open source project 
+             -- without using the command line, a text editor,
+             "forking a repo", or even touching Git outside of Github.
+             I'll also describe what kinds of contributions open
+           </p>
+           <button id="show-more-button">SHOW MORE</button>
+         </div>
+       </div>
+     </div>
     </section>
+
+    <section id="comment-section">
+      <p id="num-of-comments">18 Comments</p>
+      <div id="sortby-div">
+        <i class="fa-solid fa-bars-sort"></i>
+        <p>SORT BY</p>
+      </div>
+      <img src="images/my-channel.jpeg" alt="">
+      <input id="comment-input"
+       type="text" placeholder="Add a comment...">
+
+       <div id="comment">
+        <img id="comment-img" src="" alt="">
+        <p id="comment-username">Roshan Jossey</p>
+       </div>
+    </section>
+  </section>
     
+    <section id="reccommended-videos">
+      <div id="reccommended-videos-buttons-div">
+        <button class="reccommended-videos-button">All</button>
+        <button class="reccommended-videos-button">Git</button>
+        <button class="reccommended-videos-button">Website</button>
+        <button class="reccommended-videos-button">Computer program</button>
+        <button class="reccommended-videos-button">Related</button>
+      </div>
+    
+      <div id="reccomended-video-div">
+        <div id="reccomended-video-img-div">
+          <img class="reccomended-video-img" src="images/ja i tata.jpg" alt="">
+        </div>
+        <div id="reccomended-video-info">
+          <p id="reccomended-video-title">My father and I on a hike </p>
+          <p id="reccomended-video-channel">SomeGuy99</p>
+          <p id="reccomended-video-views">22K views &#8226; 2 years ago </p>
+        </div>
+      </div>
+       
+      <div id="reccomended-video-div">
+        <div id="reccomended-video-img-div">
+          <img class="reccomended-video-img" src="images/tesla.jpg" alt="">
+        </div>
+        <div id="reccomended-video-info">
+          <p id="reccomended-video-title">Tesla was a badass, he made a lot of awesome things</p>
+          <p id="reccomended-video-channel">ScienceMannnn</p>
+          <p id="reccomended-video-views">600K views &#8226; 1 year ago </p>
+        </div>
+      </div>
+
+      <div id="reccomended-video-div">
+        <div id="reccomended-video-img-div">
+          <img class="reccomended-video-img" src="images/USB OTG.jpg" alt="">
+        </div>
+        <div id="reccomended-video-info">
+          <p id="reccomended-video-title">LOOK AT THIS SUPER COOL USB!!! </p>
+          <p id="reccomended-video-channel">USBLover</p>
+          <p id="reccomended-video-views">1.2M views &#8226; 2 months ago </p>
+        </div>
+      </div>
+
+      <div id="reccomended-video-div">
+        <div id="reccomended-video-img-div">
+          <img class="reccomended-video-img" src="images/ja i tata.jpg" alt="">
+        </div>
+        <div id="reccomended-video-info">
+          <p id="reccomended-video-title">My father and I on a hike </p>
+          <p id="reccomended-video-channel">SomeGuy99</p>
+          <p id="reccomended-video-views">22K views &#8226; 2 years ago </p>
+        </div>
+      </div>
+       
+      <div id="reccomended-video-div">
+        <div id="reccomended-video-img-div">
+          <img class="reccomended-video-img" src="images/tesla.jpg" alt="">
+        </div>
+        <div id="reccomended-video-info">
+          <p id="reccomended-video-title">Tesla was a badass, he made a lot of awesome things</p>
+          <p id="reccomended-video-channel">ScienceMannnn</p>
+          <p id="reccomended-video-views">600K views &#8226; 1 year ago </p>
+        </div>
+      </div>
+
+      <div id="reccomended-video-div">
+        <div id="reccomended-video-img-div">
+          <img class="reccomended-video-img" src="images/USB OTG.jpg" alt="">
+        </div>
+        <div id="reccomended-video-info">
+          <p id="reccomended-video-title">LOOK AT THIS SUPER COOL USB!!! </p>
+          <p id="reccomended-video-channel">USBLover</p>
+          <p id="reccomended-video-views">1.2M views &#8226; 2 months ago </p>
+        </div>
+      </div>
+
+      
+    
+
+    </section>
   </main>
  
+  
 
 </body>
 </html>

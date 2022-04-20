@@ -10,7 +10,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  background-color: white;
 }
 
 img {
@@ -26,10 +26,12 @@ img {
 
 #hamburger-img {
   margin-right: 28px;
+  cursor: pointer;
 }
 
 #youtube-logo {
   height: 22px;
+  cursor: pointer;
 }
 
 #header-right {
@@ -40,6 +42,7 @@ img {
 #upload-img, #apps-img, #notifications-img {
   margin-right: 30px;
   height: 26px;
+  cursor: pointer;
 }
 
 #channel-img {
@@ -47,6 +50,7 @@ img {
   border-radius: 20px;
   object-fit: cover;
   height: 38px;
+  cursor: pointer;
 }
 
 #header-middle {
@@ -76,6 +80,7 @@ input[type='search']::-webkit-input-placeholder {
   border-left: none;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 #voice-search-img-div {
@@ -85,5 +90,6 @@ input[type='search']::-webkit-input-placeholder {
   margin-left: 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
